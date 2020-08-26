@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+header{
+    height: 80vh;
+    width: 100%;
+    background: hsl(193, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header .container{
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 948px;
+
+}
+
+header .container .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img{
+    width: 130px;
+    margin: 30px 30px 30px 30px;
+}
+
+.container button{
+    background-color: white;
+    border: none;
+    color:  hsl(192, 100%, 9%);
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+}
+
+.hero{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 948px;
+
+}
+
+.hero img{
+    width: 450px;
+}
+
+.hero h1{
+    
+    color: hsl(192, 100%, 9%);
+    font-size: 27px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.hero p{
+    color: hsl(192, 100%, 9%);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.hero button{
+    background: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    margin-top: 15px;
+    padding: 13px 35px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+/* 
+   MAIN CARDS 
+
+*/
+
+.cards{
+    margin-top: 90px;
+    margin-bottom: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 300px;
+    margin-left: 40px;
+}
+
+.card h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.card p{
+    color:  hsl(208, 11%, 55%);
+    margin-left: 80px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    background: #012326;
+
+}
+
+.ft-logo{
+
+    width: 100%;
+    max-width: 948px;
+    height: 60%;
+    
+}
+
+.ft-logo svg{
+    position: relative;
+    top: 200px;
+    
+}
+
+.ft-main{
+    width: 100%;
+    max-width: 948px;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.info{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+
+}
+
+
+.ft-main img{
+    height: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    
+}
+
+.ft-main p{
+    display: inline-block;
+    margin-left: 15px;
+   
+    line-height: 17px;
+    color: white;
+}
+
+.ft-main a{
+    color: white;
+}
+
+.nav {
+    margin-left: 130px;
+}
+
+.nav li{
+    margin-top: 18px;
+}
+
+.icons{
+    margin-left: 60px;
+}
+
+ion-icon{
+    
+    padding: 4px;
+    color: white;
+    border: #ffffff solid 1px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+.ft-legal{
+    width: 100%;
+    max-width: 948px;
+    height: 20%;
+    
+}
+
+.ft-legal p{
+    font-size: 11px;
+    color: white;
+    position: relative;
+    left: 720px;
+}
