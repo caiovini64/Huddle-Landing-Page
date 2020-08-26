@@ -28,6 +28,7 @@ header .container .nav{
     justify-content: space-between;
 }
 
+
 .container img{
     width: 130px;
     margin: 30px 30px 30px 30px;
@@ -112,7 +113,7 @@ header .container .nav{
     width: 100%;
     max-width: 900px;
     height: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -143,6 +144,41 @@ header .container .nav{
     line-height: 20px;
 }
 
+/* Float Card */
+
+.float-card{
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 1780px;
+    left: 400px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.float-card h1{
+    color: hsl(192, 100%, 9%);
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+.float-card button{
+
+    background: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 20px 45px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
 
 
 /* FOOTER */
@@ -211,11 +247,11 @@ footer{
     color: white;
 }
 
-.nav {
+.ft-nav {
     margin-left: 130px;
 }
 
-.nav li{
+.ft-nav li{
     margin-top: 18px;
 }
 
@@ -230,6 +266,7 @@ ion-icon{
     border: #ffffff solid 1px;
     border-radius: 50%;
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 
